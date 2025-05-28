@@ -1,0 +1,61 @@
+.result-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.result-box {
+  width: 90%;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+    -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  margin-bottom: 2rem;
+}
+
+.file-block h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #ffffff44;
+  padding-bottom: 0.3rem;
+}
+
+.function-block h3 {
+  color: #f1c40f;
+  margin-top: 1rem;
+}
+
+.function-block pre {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.8rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  color: #ecf0f1;
+  margin-top: 0.5rem;
+}
+.flowchart-section {
+  margin-top: 20px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.flowchart svg {
+  width: 100%;
+}
+.flowchart-box {
+  width: 100%;
+  overflow-x: auto;
+  background-color: #ffffff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
